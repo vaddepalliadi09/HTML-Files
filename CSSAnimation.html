@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .div1{
+            height: 100px;
+            width: 100px;
+            background-color: blanchedalmond;
+            border: 2px solid brown;
+            animation-name: Extra;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+        @keyframes Extra {
+            from{
+                background-color: rgb(252, 248, 32);
+            }
+            to{
+                background-color: rgb(81, 60, 83);
+            }
+            
+        }
+        @keyframes Extra{
+            0%{background-color: sandybrown;}
+            25%{background-color: teal;}
+            50%{background-color: wheat;}
+            75%{background-color: indigo;}
+            100%{background-color: orange;}
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">Animation</div>
+</body>
+</html>

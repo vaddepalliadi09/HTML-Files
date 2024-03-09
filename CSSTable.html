@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <link rel="stylesheet" href="CSSTable.css">
+    <style>
+        table,th,td{
+            /* border-collapse: separate; */
+            border-collapse: collapse;
+            border-spacing: 10px 20px;
+            /* empty-cells: show; */
+            /* padding: 20px; */
+            height:30px;
+            width: 50px;
+
+        }
+        td{
+            vertical-align: middle;
+        }
+        /* th{
+            background-color: brown;
+            color: yellow;
+        } */
+        caption{
+            caption-side:top;
+        }
+        tr:hover{
+            background-color: aquamarine;
+        }
+        tr:nth-child(even){
+            background-color: violet;
+        }
+        tr:nth-child(odd){
+            background-color: antiquewhite
+        }
+    </style>
+</head>
+<body>
+    <table border="n">
+        <caption>Student Mark List</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>BRANCH</th>
+                <th>CLASS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mahesh</td>
+                <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ut, repudiandae soluta aliquid est odio.</td> -->
+                <td>Electronics</td>
+                <td>Final Year</td>
+            </tr>
+            <tr>
+                <td>Yash</td>
+                <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ab? At quae eos officiis rerum, recusandae fugit eius et deserunt?</td> -->
+                <td>Electronics</td>
+                <td>Third Year</td>
+            </tr>
+            <tr>
+                <td>Atul</td>
+                <!-- <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut neque beatae accusamus mollitia repudiandae soluta? Magni distinctio consectetur, dolorem molestias obcaecati recusandae voluptas dicta eos.</td> -->
+                <td>Electronics</td>
+                <td>Second Year</td>
+            </tr>
+            <tr>
+                <td>Manish</td>
+                <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores ratione numquam mollitia incidunt. Necessitatibus ratione exercitationem suscipit facere mollitia eius! Quasi quisquam fuga explicabo debitis, numquam nemo quia vitae.</td> -->
+                <td>Electronics</td>
+                <td>First Year</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

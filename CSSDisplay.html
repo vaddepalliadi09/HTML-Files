@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        ul{
+            background-color: bisque;
+            list-style: none;
+            height: 100px;
+            line-height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+        }
+        li{
+            display: inline;
+            /* display: block; */
+            background-color: rgba(16, 60, 255, 0.459);
+            margin: 10px;
+            font-size:large;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        button{
+            background-color: rgb(255, 251, 8);
+            border-radius: 10px;
+            border-style:dashed;
+            height: 50px;
+            width: 100px;
+            padding: 10px;
+            display: inline;
+            margin: 25px;
+            text-align: center;
+        }
+        img{
+            background-color: rgb(34, 255, 255);
+            height: inherit;
+            width: inherit;
+            border-radius: 15px;
+            position: absolute;
+            left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <img src="ING12.jpg">
+        <li><a href="https://viteee.vit.ac.in/?utm_source=GL271YTR&utm_campaign=viteee2024&gad_source=1&gclid=EAIaIQobChMIxYOwgZ6-hAMV7qlmAh1cAgj6EAAYASAAEgLEKfD_BwE">Home</a></li>
+        <li>News</li>
+        <li>Contact</li>
+        <li>About Us</li>
+        <button>LOG IN</button>
+    </ul>
+</body>
+</html>

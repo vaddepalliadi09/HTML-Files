@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Slider</title>
+    <style>
+        .div1{
+            height: 400px;
+            width: 700px;
+            position: absolute;
+            left: 18%;
+            top: 15%;
+            animation-name: Extra;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+        }
+        
+        @keyframes Extra{
+            0%{background-image: url(SIM1.jpg);background-repeat: no-repeat;background-size: cover;}
+            25%{background-image: url(SIM2.jpg);background-repeat: no-repeat;background-size: cover;}
+            50%{background-image:url(SIM3.jpg) ;background-repeat: no-repeat;background-size: cover;}
+            75%{background-image:url(SIM4.jpg) ;background-repeat: no-repeat;background-size: cover;}
+            100%{background-image:url(SIM5.jpg) ;background-repeat: no-repeat;background-size: cover;}
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div class="div1"></div>
+</body>
+</html>

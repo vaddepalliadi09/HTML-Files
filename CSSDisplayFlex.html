@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Flex</title>
+    <style>
+        .flex-container{
+            display: flex;
+            flex-direction: row;
+            background-color: bisque;
+            font-size: x-large;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+        div{
+            background-color: yellow;
+            line-height: 150px;
+            height: 200px;
+            width: 150px;
+            margin: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <span class="flex-container">
+        <div style="flex-grow: 3">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </span>
+</body>
+</html>

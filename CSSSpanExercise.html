@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet"">
+    <title>Time Table Exercise</title>
+    <style>
+        th{
+            color:white;
+        }
+        table,td,tr{
+            border-collapse: collapse;
+            border-spacing: 20px 50px;
+            height:40px;
+            text-align: center;
+            font-family: Kode Mono;
+        }
+        body{
+            border-radius: 20px;
+            td:hover{
+                color: rgb(253, 143, 0);            
+                background-color: aquamarine;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table border="n">
+        <caption><h2>Time Table</h2></caption>
+
+        <thead style="background-color: rgb(0, 0, 0)">
+            <tr>
+                <th>PERIOD</th>
+                <th>TIME</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: rgb(214, 226, 245);">
+            <tr>
+                <td>1</td>
+                <td>9:15</td>
+                <td>MC</td>
+                <td>DSP</td>
+                <td>DS</td>
+                <td>MC</td>
+                <td>CS</td>
+                <td rowspan=4></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>10:15</td>
+                <td rowspan="2" >PYTHON-B1 <br> DSP-B2 <br> MC-B2 <br> CN-B2</td>
+                <td>CS</td>
+                <td>CN</td>
+                <td>DSP</td>
+                <td>DSP</td>
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>11:15</td>
+                <!-- <td>DSP</td> -->
+                <td>MC</td>
+                <td rowspan="2">CS(T)-B1 <br>DS-B2<br>PYTHON-B3<br>CS(T)-B4</td>
+                <td>DS</td>
+                <td>PYTHON</td>
+                <!-- <td></td> -->
+            </tr>
+            
+            <tr>
+                <td>4</td>
+                <td>12:15</td>
+                <td>DS</td>
+                <td>PYTHON</td>
+                <!-- <td>DS-B2</td> -->
+                <td>CS</td>
+                <td>CN</td>
+                <!-- <td></td> -->
+                
+            </tr>
+            <th colspan="8" style="background-color: rgb(7, 7, 7);">RECESS</th>
+            <tr>
+                <td>5</td>
+                <td>2:15</td>
+                <td>CN</td>
+                <td rowspan="2">MC-B1 <br>CN-B2<br>DSP-B3<br>PYTHON-B4</td>
+                <td rowspan="2">DSP-B1 <br>MC-B2<br>CS(T)-B2<br>DS-B4</td>
+                <td rowspan="2">DS-B1 <br>CS(T)-B2<br>CN-B3<br>DSP-B4</td>
+                <td rowspan="2">DS-B3 <br>PYTHON-B2<br>CN-B1 <br>MC-B4</td>
+                <td rowspan="3"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>3:15</td>
+                <td>CS</td>
+                <!-- <td>CN-B2</td> -->
+                <!-- <td>MC-B2</td> -->
+                <!-- <td>CS(T)-B2</td> -->
+                <!-- <td>PYTHON-B2</td> -->
+                <!-- <td></td> -->
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>4:15</td>
+                <td>ENV</td>
+                <td>DS</td>
+                <td>DSP</td>
+                <td>CN</td>
+                <td>MC</td>
+                <!-- <td></td> -->
+            </tr>
+        </tbody>
+    </table>
+    </center>
+</body>
+</html>

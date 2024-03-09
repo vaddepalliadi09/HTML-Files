@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border</title>
+    <style>
+        .dotted{
+            background-image: linear-gradient(orange,white,green);
+            /* background-image: url(card-1.jpg); */
+            border-width: 2px;
+            height: 50px;
+            background-color: beige;
+            border-style: dotted;
+            color: purple;
+            border-radius: 50px;
+        }
+        .dashed{
+            background-image: linear-gradient(yellow,white,red);
+            /* background-image: url(card-3.webp);  */
+            border-width: 4px;
+            height: 50px;
+            background-color: aliceblue;
+            border-style: dashed;
+            color: #FF0000;
+        }
+        .solid{
+            background-image: url(card7.png);
+            background-repeat: no-repeat;
+            border-width: 6px;
+            height: 50px;
+            background-color: azure;
+            border-style: solid;
+            color: rgb(100,233,12);
+        }
+        .double{
+            background-image: url(card-4.png);
+            background-repeat: no-repeat;
+            border-width: 8px;
+            height: 50px;
+            background-color: aquamarine;
+            border-style: double;
+            color: hsl(10,50,30);
+            border-top-left-radius: 10px;
+        }
+        body{
+            background-image: url(card-3.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <P class="dotted">Lorem ipsum dolor sit amet.</P>
+    <P class="dashed">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, iste.</P>
+    <P class="solid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos voluptate accusamus cumque dicta odio doloribus.</P>
+    <P class="double">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quos rem quasi quod repudiandae fugit ea nobis porro dicta nihil!</P>
+</body>
+</html>
